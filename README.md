@@ -1,4 +1,4 @@
-[TOC]
+[[TOC]]
 
 # 形状
 
@@ -272,3 +272,57 @@ points 属性定义折线每个连接点的 x 和 y 坐标
   />
 </svg>
 ```
+
+# 实例
+
+## SVG 形状
+
+- [矩形](https://www.w3school.com.cn/svg/rect1.svg)
+- [带有透明度的矩形](https://www.w3school.com.cn/svg/rect2.svg)
+- [带有透明度的矩形 2](https://www.w3school.com.cn/svg/rect3.svg)
+- [带有圆角的矩形](https://www.w3school.com.cn/svg/rect4.svg)
+- [圆形](https://www.w3school.com.cn/svg/circle1.svg)
+- [椭圆形](https://www.w3school.com.cn/svg/ellipse1.svg)
+- [累叠而上的三个椭圆](https://www.w3school.com.cn/svg/ellipse2.svg)
+- [两个椭圆](https://www.w3school.com.cn/svg/ellipse3.svg)
+- [一条线](https://www.w3school.com.cn/svg/line1.svg)
+- [三角形](https://www.w3school.com.cn/svg/polygon1.svg)
+- [四边形](https://www.w3school.com.cn/svg/polygon2.svg)
+- [折线](https://www.w3school.com.cn/svg/polyline1.svg)
+- [路径](https://www.w3school.com.cn/svg/path1.svg)
+- [螺旋](https://www.w3school.com.cn/svg/path2.svg)
+
+## SVG 滤镜
+
+- [feGaussianBlur 滤镜](https://www.w3school.com.cn/svg/filter1.svg)
+- [另一个 feGaussianBlur 滤镜](https://www.w3school.com.cn/svg/filter2.svg)
+- [feBlend 滤镜](https://www.w3school.com.cn/svg/feblend_1.svg)
+- [feColorMatrix 滤镜](https://www.w3school.com.cn/svg/fecolormatrix_1.svg)
+- [feComponentTransfer 滤镜](https://www.w3school.com.cn/svg/fecomponenttransfer_1.svg)
+- [feOffset 滤镜](https://www.w3school.com.cn/svg/feoffset_1.svg)
+- [feOffset、feFlood、feComposite、feMerge 以及 feMergeNode](https://www.w3school.com.cn/svg/femerge_1.svg)
+- [feMorphology 滤镜](https://www.w3school.com.cn/svg/femorphology_1.svg)
+- [滤镜 1](https://www.w3school.com.cn/svg/filter_1.svg)
+- [滤镜 2](https://www.w3school.com.cn/svg/filter_2.svg)
+- [滤镜 3](https://www.w3school.com.cn/svg/filter_3.svg)
+- [滤镜 4](https://www.w3school.com.cn/svg/filter_4.svg)
+- [滤镜 5](https://www.w3school.com.cn/svg/filter_5.svg)
+- [滤镜 6](https://www.w3school.com.cn/svg/filter_6.svg)
+
+## SVG 渐变
+
+- [线形渐变 (水平渐变)](https://www.w3school.com.cn/svg/linear1.svg)
+- [线形渐变 (垂直渐变)](https://www.w3school.com.cn/svg/linear3.svg)
+- [放射性渐变](https://www.w3school.com.cn/svg/radial1.svg)
+- [放射性渐变 2](https://www.w3school.com.cn/svg/radial2.svg)
+
+## SVG Misc
+
+- [向矩形添加一个 "a" 元素，这样矩形就可以作为一个超级链接了。](https://www.w3school.com.cn/svg/a_1.svg)
+- [当用户在圆上面点击时，使用 JavaScript 创建一个元素。](https://www.w3school.com.cn/svg/a_2.svg)
+- [重复用 5 秒时间淡出的矩形](https://www.w3school.com.cn/svg/animate_1.svg)
+- [动态改变矩形的 x、y 以及 width、height 属性来创造出动画效果，并改变矩形的颜色](https://www.w3school.com.cn/svg/animate_2.svg)
+- [会改变颜色的三个矩形](https://www.w3school.com.cn/svg/animatecolor_1.svg)
+- [沿一个运动路径移动的文本](https://www.w3school.com.cn/svg/animatemotion_0.svg)
+- [沿一个运动路径移动、旋转并缩放的文本](https://www.w3school.com.cn/svg/animatemotion_1.svg)
+- [沿一个运动路径移动、旋转并缩放的文本 + 逐步放大并改变颜色的矩形](https://www.w3school.com.cn/svg/animatemotion_2.svg)
