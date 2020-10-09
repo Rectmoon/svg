@@ -31,6 +31,10 @@
 - CSS 的 stroke 属性定义矩形边框的颜色
 - CSS 的 fill-opacity 属性定义填充颜色透明度（合法的范围是：0 - 1）
 - CSS 的 stroke-opacity 属性定义笔触颜色的透明度（合法的范围是：0 - 1）
+- CSS 的 stroke-dasharray 用于创建虚线
+  - stroke-dasharray 为一个参数时： 表示虚线长度和每段虚线之间的间距
+  - stroke-dasharray 两个参数或者多个参数时：一个表示长度，一个表示间距
+- CSS 的 stroke-dashoffset 用于定义虚线偏移， 正数偏移 x 值的时候，相当于往左移动了 x 个长度单位，负数偏移 x 的时候，相当于往右移动了 x 个长度单位
 
 ```html
 <svg
