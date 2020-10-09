@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stroke Dash</title>
+    <style>
+      svg:hover #line {
+        stroke-dashoffset: 0;
+      }
+
+      #line {
+        transition: all 2s;
+      }
+
+      svg:hover #circle {
+        stroke-dashoffset: 0;
+      }
+
+      #circle {
+        transition: all 2s;
+        stroke-dasharray: 314, 314;
+        stroke-dashoffset: 314;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 线段从无到有，由短变长 -->
+    <svg>
+      <line
+        id="line"
+        x1="30"
+        y1="30"
+        x2="300"
+        y2="30"
+        stroke-width="10"
+        stroke="orange"
+        stroke-dasharray="300,320"
+        stroke-dashoffset="300"
+      />
+    </svg>
+
+    <!-- 圆形环绕一圈效果 -->
+    <svg width="200" height="200" viewBox="0 0 200 200">
+      <circle
+        id="circle"
+        cx="100"
+        cy="80"
+        r="50"
+        fill="gray"
+        stroke-width="5"
+        stroke="indianred"
+      />
+    </svg>
+  </body>
+</html>
